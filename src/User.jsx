@@ -9,6 +9,8 @@ const User = ({ user }) => {
                 <p>Phone: {user.phone}; </p>
                 <p>Address:{user.address.region} Zip:{user.address.zip}</p>
                 <p>Email: {user.email}</p>
+                <p className='car'>Car:{user.cars}
+                </p>
             </div>
         </div>
     );
