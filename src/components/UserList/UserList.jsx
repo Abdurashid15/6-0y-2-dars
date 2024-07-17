@@ -1,6 +1,6 @@
 import React from 'react';
-import User from './User';
-import userData from './user.json';
+import User from '../User/User';
+import userData from '../../user.json';
 
 const UserList = () => {
   return (
